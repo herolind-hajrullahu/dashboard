@@ -48,8 +48,8 @@ var Layout = (function() {
     }
 
     // Set sidenav state from cookie
-
-    var $sidenavState = Cookies.get('sidenav-state') ? Cookies.get('sidenav-state') : 'pinned';
+	// commented
+    // var $sidenavState = Cookies.get('sidenav-state') ? Cookies.get('sidenav-state') : 'pinned';
 
     if($(window).width() > 1200) {
         if($sidenavState == 'pinned') {
